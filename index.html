@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full Page Scrolling</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="screen screen-1">
+        <div class="top-bar">
+          <div class="container-top_bar-screen1">
+            <div class="info">
+              <div>
+                <img src="./assets/images/letterIcon.png" alt="letter-icon" />
+                <p>Info@webmail.com</p>
+              </div>
+              <div>
+                <img
+                  src="./assets/images/locationIcon.png"
+                  alt="location-icon"
+                />
+                <p>547 ns tower St. anglo City, USA</p>
+              </div>
+            </div>
+            <div class="relation">
+              <svg
+                width="9"
+                height="16"
+                viewBox="0 0 9 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7.52246 9.3125L7.93262 6.61719H5.3252V4.85938C5.3252 4.09766 5.67676 3.39453 6.84863 3.39453H8.0498V1.08008C8.0498 1.08008 6.96582 0.875 5.94043 0.875C3.80176 0.875 2.39551 2.19336 2.39551 4.53711V6.61719H-0.00683594V9.3125H2.39551V15.875H5.3252V9.3125H7.52246Z"
+                  fill="white"
+                />
+              </svg>
+              <svg
+                width="16"
+                height="13"
+                viewBox="0 0 16 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.0171 3.32812C14.603 2.88867 15.1304 2.36133 15.5405 1.74609C15.0132 1.98047 14.3979 2.15625 13.7827 2.21484C14.4272 1.83398 14.896 1.24805 15.1304 0.515625C14.5444 0.867188 13.8706 1.13086 13.1968 1.27734C12.6108 0.662109 11.8198 0.310547 10.9409 0.310547C9.2417 0.310547 7.86475 1.6875 7.86475 3.38672C7.86475 3.62109 7.89404 3.85547 7.95264 4.08984C5.40381 3.94336 3.11865 2.71289 1.59521 0.867188C1.33154 1.30664 1.18506 1.83398 1.18506 2.41992C1.18506 3.47461 1.7124 4.41211 2.56201 4.96875C2.06396 4.93945 1.56592 4.82227 1.15576 4.58789V4.61719C1.15576 6.11133 2.21045 7.3418 3.6167 7.63477C3.38232 7.69336 3.08936 7.75195 2.82568 7.75195C2.62061 7.75195 2.44482 7.72266 2.23975 7.69336C2.62061 8.92383 3.76318 9.80273 5.11084 9.83203C4.05615 10.6523 2.73779 11.1504 1.30225 11.1504C1.03857 11.1504 0.804199 11.1211 0.569824 11.0918C1.91748 11.9707 3.52881 12.4688 5.28662 12.4688C10.9409 12.4688 14.0171 7.81055 14.0171 3.73828C14.0171 3.5918 14.0171 3.47461 14.0171 3.32812Z"
+                  fill="#FF5A3C"
+                />
+              </svg>
+
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.72754 4.00586C4.85254 4.00586 3.3584 5.5293 3.3584 7.375C3.3584 9.25 4.85254 10.7441 6.72754 10.7441C8.57324 10.7441 10.0967 9.25 10.0967 7.375C10.0967 5.5293 8.57324 4.00586 6.72754 4.00586ZM6.72754 9.57227C5.52637 9.57227 4.53027 8.60547 4.53027 7.375C4.53027 6.17383 5.49707 5.20703 6.72754 5.20703C7.92871 5.20703 8.89551 6.17383 8.89551 7.375C8.89551 8.60547 7.92871 9.57227 6.72754 9.57227ZM11.0049 3.88867C11.0049 3.44922 10.6533 3.09766 10.2139 3.09766C9.77441 3.09766 9.42285 3.44922 9.42285 3.88867C9.42285 4.32812 9.77441 4.67969 10.2139 4.67969C10.6533 4.67969 11.0049 4.32812 11.0049 3.88867ZM13.2314 4.67969C13.1729 3.625 12.9385 2.6875 12.1768 1.92578C11.415 1.16406 10.4775 0.929688 9.42285 0.871094C8.33887 0.8125 5.08691 0.8125 4.00293 0.871094C2.94824 0.929688 2.04004 1.16406 1.24902 1.92578C0.487305 2.6875 0.25293 3.625 0.194336 4.67969C0.135742 5.76367 0.135742 9.01562 0.194336 10.0996C0.25293 11.1543 0.487305 12.0625 1.24902 12.8535C2.04004 13.6152 2.94824 13.8496 4.00293 13.9082C5.08691 13.9668 8.33887 13.9668 9.42285 13.9082C10.4775 13.8496 11.415 13.6152 12.1768 12.8535C12.9385 12.0625 13.1729 11.1543 13.2314 10.0996C13.29 9.01562 13.29 5.76367 13.2314 4.67969ZM11.8252 11.2422C11.6201 11.8281 11.1514 12.2676 10.5947 12.502C9.71582 12.8535 7.66504 12.7656 6.72754 12.7656C5.76074 12.7656 3.70996 12.8535 2.86035 12.502C2.27441 12.2676 1.83496 11.8281 1.60059 11.2422C1.24902 10.3926 1.33691 8.3418 1.33691 7.375C1.33691 6.4375 1.24902 4.38672 1.60059 3.50781C1.83496 2.95117 2.27441 2.51172 2.86035 2.27734C3.70996 1.92578 5.76074 2.01367 6.72754 2.01367C7.66504 2.01367 9.71582 1.92578 10.5947 2.27734C11.1514 2.48242 11.5908 2.95117 11.8252 3.50781C12.1768 4.38672 12.0889 6.4375 12.0889 7.375C12.0889 8.3418 12.1768 10.3926 11.8252 11.2422Z"
+                  fill="white"
+                />
+              </svg>
+
+              <svg
+                width="17"
+                height="12"
+                viewBox="0 0 17 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16.5693 2.53711C16.3936 1.83398 15.8369 1.27734 15.1631 1.10156C13.9033 0.75 8.92285 0.75 8.92285 0.75C8.92285 0.75 3.91309 0.75 2.65332 1.10156C1.97949 1.27734 1.42285 1.83398 1.24707 2.53711C0.895508 3.76758 0.895508 6.4043 0.895508 6.4043C0.895508 6.4043 0.895508 9.01172 1.24707 10.2715C1.42285 10.9746 1.97949 11.502 2.65332 11.6777C3.91309 12 8.92285 12 8.92285 12C8.92285 12 13.9033 12 15.1631 11.6777C15.8369 11.502 16.3936 10.9746 16.5693 10.2715C16.9209 9.01172 16.9209 6.4043 16.9209 6.4043C16.9209 6.4043 16.9209 3.76758 16.5693 2.53711ZM7.28223 8.77734V4.03125L11.4424 6.4043L7.28223 8.77734Z"
+                  fill="white"
+                />
+              </svg>
+
+              <svg
+                width="16"
+                height="15"
+                viewBox="0 0 16 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.1611 7.375C15.1611 3.36133 11.9092 0.109375 7.89551 0.109375C3.88184 0.109375 0.629883 3.36133 0.629883 7.375C0.629883 10.4805 2.53418 13.0879 5.22949 14.1426C5.1709 13.5859 5.1123 12.707 5.25879 12.0625C5.40527 11.5059 6.1084 8.45898 6.1084 8.45898C6.1084 8.45898 5.90332 8.01953 5.90332 7.375C5.90332 6.37891 6.48926 5.61719 7.22168 5.61719C7.83691 5.61719 8.12988 6.08594 8.12988 6.64258C8.12988 7.25781 7.71973 8.19531 7.51465 9.07422C7.36816 9.77734 7.89551 10.3633 8.59863 10.3633C9.8877 10.3633 10.8838 9.01562 10.8838 7.05273C10.8838 5.29492 9.62402 4.09375 7.86621 4.09375C5.78613 4.09375 4.58496 5.64648 4.58496 7.22852C4.58496 7.87305 4.81934 8.54688 5.1123 8.89844C5.1709 8.95703 5.1709 9.04492 5.1709 9.10352C5.1123 9.33789 4.96582 9.83594 4.96582 9.92383C4.93652 10.0703 4.84863 10.0996 4.70215 10.041C3.79395 9.60156 3.2373 8.2832 3.2373 7.19922C3.2373 4.91406 4.90723 2.80469 8.04199 2.80469C10.5615 2.80469 12.5244 4.62109 12.5244 7.02344C12.5244 9.51367 10.9424 11.5352 8.74512 11.5352C8.0127 11.5352 7.30957 11.1543 7.0752 10.6855C7.0752 10.6855 6.72363 12.0918 6.63574 12.4141C6.45996 13.0586 6.02051 13.8496 5.72754 14.3184C6.40137 14.5527 7.13379 14.6406 7.89551 14.6406C11.9092 14.6406 15.1611 11.3887 15.1611 7.375Z"
+                  fill="white"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="header">
+          <nav>
+            <div class="logo">
+              <img src="assets/images/Logo.png" alt="Reamy Logo" />
+            </div>
+            <ul class="nav-links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Feature</a></li>
+              <li><a href="#">Market</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+            <div>
+              <button class="sign-in-button button">Log in</button>
+              <button class="sign-up-button button">Sign Up</button>
+            </div>
+          </nav>
+        </div>
+
+        <section class="hero">
+          <div class="hero-text">
+            <h1>Find the best Real Estate on your country.</h1>
+            <p>
+              With over 1 million homes for sale available on the website,
+              Renting can match you with a house.
+            </p>
+            <img src="./assets/images/Vector.png" alt="arrow" id="arrow" />
+            <button class="btn">Start Membership > </button>
+
+            <div class="elpa">
+              <div class="houses">
+                <div class="house active">HOUSE 1</div>
+                <div class="house">HOUSE 2</div>
+                <div class="house">HOUSE 3</div>
+              </div>
+              <div class="pagination">
+                <span class="page active">1</span>
+                <span class="page">2</span>
+                <span class="page">3</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="./assets/images/1main.png" alt="image" />
+            <div class="revenue-card">
+              <img src="./assets/images/revenue-icon.png" alt="Revenue Icon" />
+              <h2>$7454.21</h2>
+              <p style="color: #9eabb2">Revenue</p>
+            </div>
+            <button class="btn how-it-works">
+              How it works
+              <span class="play-icon">
+                <svg
+                  width="50"
+                  height="50"
+                  viewBox="0 0 62 63"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g filter="url(#filter0_d_2_662)">
+                    <circle
+                      cx="31.081"
+                      cy="23.5338"
+                      r="18.5814"
+                      fill="#FCFCFD"
+                    />
+                  </g>
+                  <path
+                    d="M37.0142 22.6679C37.6808 23.0528 37.6808 24.015 37.0142 24.3999L28.8653 29.1047C28.1986 29.4896 27.3653 29.0085 27.3653 28.2386L27.3653 18.8291C27.3653 18.0593 28.1986 17.5782 28.8653 17.9631L37.0142 22.6679Z"
+                    fill="#FF5A3C"
+                  />
+                  <defs>
+                    <filter
+                      id="filter0_d_2_662"
+                      x="0.499512"
+                      y="0.952393"
+                      width="61.1631"
+                      height="61.1628"
+                      filterUnits="userSpaceOnUse"
+                      color-interpolation-filters="sRGB"
+                    >
+                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feColorMatrix
+                        in="SourceAlpha"
+                        type="matrix"
+                        values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                        result="hardAlpha"
+                      />
+                      <feOffset dy="8" />
+                      <feGaussianBlur stdDeviation="6" />
+                      <feColorMatrix
+                        type="matrix"
+                        values="0 0 0 0 0.384314 0 0 0 0 0.443137 0 0 0 0 0.576471 0 0 0 0.1 0"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in2="BackgroundImageFix"
+                        result="effect1_dropShadow_2_662"
+                      />
+                      <feBlend
+                        mode="normal"
+                        in="SourceGraphic"
+                        in2="effect1_dropShadow_2_662"
+                        result="shape"
+                      />
+                    </filter>
+                  </defs>
+                </svg>
+              </span>
+            </button>
+          </div>
+        </section>
+      </section>
+      <section class="screen screen-2">
+        <div class="screen-2-sub1">
+          <h1 class="session-title">Commercial Real Estate and Office</h1>
+          <p>
+            Work with Renting brokers who help you to get started with smart
+            tools to.
+          </p>
+          <div class="container">
+            <div class="card">
+              <svg
+                width="157"
+                height="157"
+                viewBox="0 0 157 157"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_d_2_594)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M77.3244 17.4316C100.963 17.4316 123.483 33.0339 123.483 56.7985C123.483 83.6201 104.004 107.432 77.3244 107.432C51.2476 107.432 33.4834 83.0138 33.4834 56.7985C33.4834 33.7204 54.3681 17.4316 77.3244 17.4316Z"
+                    fill="#F5DFDC"
+                  />
+                </g>
+                <g clip-path="url(#clip0_2_594)">
+                  <path
+                    d="M75.6704 77.5919H61.1099V72.8763C61.1099 71.8836 61.5235 70.9322 62.3094 70.3117C66.57 66.7957 71.2029 64.4792 72.113 64.0242C72.2371 63.9828 72.2784 63.8587 72.2784 63.7346V61.2941C71.6579 60.2186 71.2857 59.019 71.1202 57.9435C70.7479 57.9022 70.2515 57.4058 69.7138 55.503C69.052 53.1038 69.6724 52.6074 70.2929 52.6074C70.3343 52.6074 70.3756 52.6074 70.417 52.6074C69.9206 51.2424 69.9206 49.9187 70.2515 48.7191C70.5825 47.2714 71.3684 46.1131 72.2371 45.2031C72.7748 44.624 73.4366 44.0862 74.0985 43.6726C74.6362 43.3003 75.2567 42.9694 75.8772 42.7626C76.4149 42.5971 76.9527 42.473 77.5318 42.473C77.78 42.4316 77.9868 42.4316 78.235 42.4316C79.6828 42.4316 80.7996 42.8453 81.6269 43.3417C83.0747 44.1276 83.6124 45.2031 83.6124 45.2031C83.6124 45.2031 87.2526 45.4513 85.6393 53.0625C86.1357 53.2279 86.4666 53.8898 85.8875 55.9166C85.3498 57.8608 84.812 58.3572 84.4397 58.3572C84.3157 58.3572 84.2329 58.3158 84.1502 58.2745C83.9847 59.1431 83.7365 60.0532 83.3229 60.9218C83.3229 62.1628 83.3229 63.321 83.3229 63.776C83.3229 63.9001 83.4056 63.9828 83.4883 64.0656C83.902 64.2724 85.1016 64.8929 86.7148 65.8029C86.5907 65.927 86.4253 66.0511 86.3012 66.1752C85.1843 67.2507 84.6052 68.6571 84.6052 70.2703C84.6052 72.1731 85.267 73.3727 85.9703 74.1173C85.5152 74.2414 85.143 74.4896 84.812 74.8205C84.357 75.3169 84.1088 75.9373 84.1502 76.5992C84.1502 76.9715 84.2329 77.3024 84.2743 77.6333H80.0551H75.6704V77.5919ZM92.0923 64.3551H90.6859C90.479 64.3551 90.3136 64.5206 90.3136 64.7274V66.382C89.2381 66.5475 88.4108 66.9197 87.749 67.5402C87.0457 68.2434 86.6735 69.1121 86.6735 70.1876C86.6735 71.3872 87.0044 72.2558 87.7076 72.8763C88.4108 73.4968 89.4863 74.0759 90.9754 74.6964C91.5959 74.9446 92.0096 75.2341 92.2577 75.5237C92.5059 75.8132 92.63 76.1855 92.63 76.6819C92.63 77.0956 92.5059 77.4678 92.2577 77.716C92.0096 77.9642 91.6786 78.1297 91.2236 78.1297C90.6859 78.1297 90.2309 77.9642 89.8999 77.5919C89.6104 77.3024 89.4449 76.8887 89.4036 76.3096C89.4036 76.1028 89.1967 75.896 88.9485 75.896L86.6735 75.9373C86.4253 75.9373 86.2184 76.1442 86.2184 76.3923C86.2598 77.5919 86.6735 78.5433 87.3767 79.2052C88.1626 79.9084 89.1554 80.322 90.3136 80.4875V82.0594C90.3136 82.2662 90.479 82.4316 90.6859 82.4316H92.0923C92.2991 82.4316 92.4646 82.2662 92.4646 82.0594V80.4461C93.416 80.2807 94.1605 79.9084 94.781 79.3293C95.4842 78.6674 95.8151 77.7574 95.8151 76.6819C95.8151 75.5237 95.4842 74.6136 94.781 73.9932C94.0778 73.3727 93.0023 72.7522 91.5132 72.1317C90.8927 71.8422 90.4377 71.594 90.2309 71.3044C89.9827 71.0149 89.8999 70.684 89.8999 70.229C89.8999 69.8153 90.024 69.443 90.2309 69.1535C90.4377 68.8639 90.7686 68.7398 91.2236 68.7398C91.6786 68.7398 92.0096 68.9053 92.2991 69.2362C92.5059 69.5257 92.63 69.898 92.6714 70.3944C92.6714 70.6012 92.8782 70.7667 93.1264 70.7667L95.4015 70.7253C95.6497 70.7253 95.8565 70.5185 95.8565 70.2703C95.8151 69.2776 95.4842 68.4503 94.9051 67.747C94.2846 67.0438 93.4987 66.5888 92.5059 66.382V64.6447C92.5059 64.5206 92.2991 64.3551 92.0923 64.3551Z"
+                    fill="#FF5A3C"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_2_594"
+                    x="0.483398"
+                    y="0.431641"
+                    width="156"
+                    height="156"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feMorphology
+                      radius="12"
+                      operator="erode"
+                      in="SourceAlpha"
+                      result="effect1_dropShadow_2_594"
+                    />
+                    <feOffset dy="16" />
+                    <feGaussianBlur stdDeviation="22.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.235294 0 0 0 0 0.313726 0 0 0 0 0.878431 0 0 0 0.05 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_2_594"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_2_594"
+                      result="shape"
+                    />
+                  </filter>
+                  <clipPath id="clip0_2_594">
+                    <rect
+                      width="40"
+                      height="40"
+                      fill="white"
+                      transform="translate(58.4834 42.4316)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <div class="card-title">Office Spaces</div>
+              <div class="card-description">
+                Explore a variety of office spaces available for rent or
+                purchase.
+              </div>
+            </div>
+            <div class="card">
+              <svg
+                width="157"
+                height="157"
+                viewBox="0 0 157 157"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g opacity="0.2" filter="url(#filter0_d_2_602)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M77.3244 17.4316C100.963 17.4316 123.483 33.0339 123.483 56.7985C123.483 83.6201 104.004 107.432 77.3244 107.432C51.2476 107.432 33.4834 83.0138 33.4834 56.7985C33.4834 33.7204 54.3681 17.4316 77.3244 17.4316Z"
+                    fill="#F5DFDC"
+                  />
+                </g>
+                <g clip-path="url(#clip0_2_602)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M72.8778 60.957C64.9279 60.957 58.4834 67.4015 58.4834 75.3509C58.4834 76.6126 58.6464 77.8356 58.9513 79.0013H86.3746C87.0421 79.1413 87.7336 79.2152 88.4428 79.2152C93.9882 79.2152 98.4834 74.72 98.4834 69.1746C98.4834 63.6292 93.9882 59.134 88.4428 59.134C85.1785 59.134 82.2782 60.6922 80.4444 63.105C78.2455 61.7435 75.6537 60.957 72.8778 60.957ZM84.5178 70.9957L86.7519 70.6555C86.8459 71.0847 87.0377 71.4112 87.3289 71.6324C87.6176 71.856 88.0253 71.9671 88.5456 71.9671C89.1201 71.9671 89.5518 71.8614 89.8435 71.6515C90.0377 71.5027 90.1347 71.3035 90.1347 71.0549C90.1347 70.888 90.0808 70.7475 89.9756 70.6369C89.865 70.5317 89.6169 70.4319 89.2337 70.3428C87.4395 69.9464 86.3041 69.5847 85.8235 69.2583C85.1574 68.8027 84.8256 68.1713 84.8256 67.3648C84.8256 66.6336 85.1143 66.0209 85.6889 65.5246C86.1059 65.1644 86.6892 64.9349 87.439 64.836V63.6918H89.4475V64.8478C90.0656 64.9334 90.5575 65.0988 90.9226 65.344C91.481 65.7214 91.8667 66.2773 92.0771 67.0139L89.9888 67.4025C89.8997 67.0731 89.7275 66.8196 89.4764 66.6444C89.2253 66.4687 88.8666 66.3825 88.4002 66.3825C87.8119 66.3825 87.391 66.4633 87.1346 66.6282C86.9648 66.7442 86.8811 66.895 86.8811 67.0785C86.8811 67.2375 86.954 67.3726 87.1023 67.4832C87.3049 67.6315 87.9979 67.8395 89.1852 68.1092C90.372 68.3788 91.2006 68.7082 91.6699 69.0992C92.1363 69.4932 92.3683 70.0462 92.3683 70.7529C92.3683 71.5218 92.0472 72.1854 91.4027 72.7384C90.9236 73.151 90.2722 73.4104 89.4475 73.5156V74.6574H87.439V73.4853C86.8003 73.3805 86.263 73.1769 85.8264 72.876C85.1599 72.4145 84.7233 71.789 84.5178 70.9957ZM88.4428 61.6989C84.3137 61.6989 80.9671 65.046 80.9671 69.1746C80.9671 73.3037 84.3137 76.6507 88.4428 76.6507C92.5719 76.6507 95.9184 73.3037 95.9184 69.1746C95.9184 65.046 92.5719 61.6989 88.4428 61.6989ZM72.8778 45.6479C69.3071 45.6479 66.4127 48.5423 66.4127 52.113C66.4127 55.6837 69.3071 58.578 72.8778 58.578C76.448 58.578 79.3428 55.6837 79.3428 52.113C79.3428 48.5423 76.448 45.6479 72.8778 45.6479Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_2_602"
+                    x="0.483398"
+                    y="0.431641"
+                    width="156"
+                    height="156"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feMorphology
+                      radius="12"
+                      operator="erode"
+                      in="SourceAlpha"
+                      result="effect1_dropShadow_2_602"
+                    />
+                    <feOffset dy="16" />
+                    <feGaussianBlur stdDeviation="22.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.235294 0 0 0 0 0.313726 0 0 0 0 0.878431 0 0 0 0.05 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_2_602"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_2_602"
+                      result="shape"
+                    />
+                  </filter>
+                  <clipPath id="clip0_2_602">
+                    <rect
+                      width="40"
+                      height="40"
+                      fill="white"
+                      transform="matrix(-1 0 0 1 98.4834 42.4316)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <div class="card-title">Commercial Properties</div>
+              <div class="card-description">
+                Find the perfect commercial property to suit your business
+                needs.
+              </div>
+            </div>
+            <div class="card">
+              <svg
+                width="157"
+                height="157"
+                viewBox="0 0 157 157"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_d_2_586)">
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M77.3244 17.4316C100.963 17.4316 123.483 33.0339 123.483 56.7985C123.483 83.6201 104.004 107.432 77.3244 107.432C51.2476 107.432 33.4834 83.0138 33.4834 56.7985C33.4834 33.7204 54.3681 17.4316 77.3244 17.4316Z"
+                    fill="#F5DFDC"
+                  />
+                </g>
+                <g clip-path="url(#clip0_2_586)">
+                  <path
+                    d="M77.5829 76.501H72.8418H71.3106C67.283 76.501 64.0051 76.2614 64.0051 72.2817V62.2454H61.6859C60.8947 62.2454 60.184 61.7708 59.8815 61.0468C59.5798 60.3187 59.7481 59.4837 60.3043 58.9273L75.7229 43.5711C76.4597 42.8366 77.4412 42.4316 78.4829 42.4316C79.5253 42.4316 80.5068 42.8366 81.2436 43.5711C83.7954 46.1126 85.7092 48.0187 86.9851 49.2895C87.0777 49.3817 87.334 49.637 87.389 49.6917C87.4257 49.7283 87.444 49.4765 87.444 48.9366C87.5392 47.5946 88.6475 46.5353 90.0202 46.5353H90.0356C91.4684 46.5353 92.628 47.6902 92.628 49.1164V54.4786C92.628 54.6212 92.6085 54.7451 92.5866 54.8714L96.6622 58.9273C97.2208 59.4837 97.3867 60.3187 97.0842 61.0468C96.7825 61.7708 96.071 62.2454 95.2806 62.2454H92.628V63.5285C95.4041 65.3765 97.2334 68.5342 97.2334 72.1191C97.2334 77.8146 92.6163 82.4316 86.9209 82.4316C82.7922 82.4316 79.2302 80.0054 77.5829 76.501ZM86.9209 81.4941C92.0986 81.4941 96.2959 77.2968 96.2959 72.1191C96.2959 66.9415 92.0986 62.7441 86.9209 62.7441C81.7432 62.7441 77.5459 66.9415 77.5459 72.1191C77.5459 77.2968 81.7432 81.4941 86.9209 81.4941ZM90.7981 73.8396C90.7981 74.5294 90.5508 75.1257 90.0563 75.6285C89.5617 76.1314 88.8449 76.4534 87.9058 76.5947V77.2305C87.9058 77.6436 87.5709 77.9785 87.1578 77.9785C86.7447 77.9785 86.4097 77.6436 86.4097 77.2305V76.6446C85.7864 76.603 85.1963 76.4971 84.6395 76.3267C84.293 76.2207 83.9835 76.0994 83.7111 75.9628C83.4486 75.8312 83.336 75.5166 83.4554 75.2484C83.4594 75.2394 83.4632 75.2309 83.4668 75.2227L83.8723 74.3122C83.968 74.0972 84.2198 74.0005 84.4349 74.0962C84.4445 74.1005 84.4539 74.1051 84.4632 74.1101C84.4848 74.1217 84.5051 74.1323 84.5239 74.1418C84.7994 74.2812 85.0998 74.4007 85.4249 74.5003C85.9402 74.6582 86.4472 74.7372 86.9458 74.7372C87.8933 74.7372 88.367 74.5003 88.367 74.0265C88.367 73.7772 88.232 73.5923 87.9618 73.4718C87.6917 73.3513 87.2575 73.2245 86.659 73.0915C86.0025 72.9503 85.454 72.7986 85.0135 72.6365C84.573 72.4744 84.1948 72.2147 83.879 71.8573C83.5631 71.5 83.4053 71.0179 83.4053 70.4112C83.4053 69.6964 83.6629 69.0835 84.1782 68.5723C84.6935 68.0612 85.4373 67.7475 86.4097 67.6311V67.0078C86.4097 66.5947 86.7447 66.2598 87.1578 66.2598C87.5709 66.2598 87.9058 66.5947 87.9058 67.0078V67.6062C88.3795 67.6477 88.8346 67.7308 89.2709 67.8555C89.5784 67.9434 89.8622 68.0498 90.1223 68.1748C90.144 68.1853 90.1686 68.1976 90.196 68.2117C90.3331 68.2823 90.3932 68.4463 90.3341 68.5887L89.7681 69.9524C89.7213 70.0653 89.5919 70.1188 89.479 70.0719C89.474 70.0699 89.4691 70.0676 89.4643 70.0652C89.4228 70.0443 89.3875 70.027 89.3583 70.0131C88.6391 69.6718 87.9388 69.5011 87.2575 69.5011C86.7671 69.5011 86.4097 69.5738 86.1853 69.7193C85.9609 69.8647 85.8487 70.0538 85.8487 70.2865C85.8487 70.5192 85.9817 70.6938 86.2477 70.8101C86.5136 70.9265 86.9417 71.047 87.5318 71.1717C88.1967 71.313 88.7473 71.4646 89.1836 71.6267C89.62 71.7888 89.9981 72.0464 90.3181 72.3996C90.6381 72.7529 90.7981 73.2328 90.7981 73.8396Z"
+                    fill="#FF5A3C"
+                  />
+                </g>
+                <defs>
+                  <filter
+                    id="filter0_d_2_586"
+                    x="0.483398"
+                    y="0.431641"
+                    width="156"
+                    height="156"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix
+                      in="SourceAlpha"
+                      type="matrix"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha"
+                    />
+                    <feMorphology
+                      radius="12"
+                      operator="erode"
+                      in="SourceAlpha"
+                      result="effect1_dropShadow_2_586"
+                    />
+                    <feOffset dy="16" />
+                    <feGaussianBlur stdDeviation="22.5" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 0.235294 0 0 0 0 0.313726 0 0 0 0 0.878431 0 0 0 0.05 0"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in2="BackgroundImageFix"
+                      result="effect1_dropShadow_2_586"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_dropShadow_2_586"
+                      result="shape"
+                    />
+                  </filter>
+                  <clipPath id="clip0_2_586">
+                    <rect
+                      width="40"
+                      height="40"
+                      fill="white"
+                      transform="translate(58.4834 42.4316)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+
+              <div class="card-title">Investment Opportunities</div>
+              <div class="card-description">
+                Discover lucrative investment opportunities in the real estate
+                market.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-3">
+        <div class="dream-living-section">
+          <div class="container3">
+            <div class="image-section">
+              <div class="rating-image">
+                <img src="./assets/images/unsplash_XbwHrt87mQ0.png" alt="img" />
+                <img src="./assets/images/unsplash_back.png" alt="img" />
+              </div>
+              <div class="rating-badge">
+                <img src="./assets/images/Rating.png" alt="rating" />
+              </div>
+            </div>
+            <div class="content-section">
+              <h2>Dream Living Spaces<br />Setting New Build</h2>
+              <p>
+                SeaWave Web is a wireframe kit that has more than 15 popular
+                categories and more than 200 screens.
+              </p>
+              <ul>
+                <li>
+                  <div class="icon">
+                    <img
+                      src="./assets/images/clarity_home-line.jpg"
+                      alt="Home Icon"
+                    />
+                  </div>
+                  <div class="text">
+                    <h3>The perfect Residency</h3>
+                    <p>
+                      Take a deep dive and browse origin neighborhood photos.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <img
+                      src="./assets/images/clarity_user-outline-alerted.jpg"
+                      alt="Architect Icon"
+                    />
+                  </div>
+                  <div class="text">
+                    <h3>Global Architect Experts</h3>
+                    <p>
+                      Take a deep dive and browse origin neighborhood photos.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icon">
+                    <img
+                      src="./assets/images/fluent_globe-location-24-regular.jpg"
+                      alt="Storage Icon"
+                    />
+                  </div>
+                  <div class="text">
+                    <h3>Built-in a storage capable</h3>
+                    <p>
+                      Take a deep dive and browse origin neighborhood photos.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-4">
+        <div class="property-sales-section">
+          <div class="wrapper">
+            <div class="info-section">
+              <div style="display: flex; align-items: center">
+                <img
+                  src="./assets/images/AboIcon.png"
+                  alt="AboIcon"
+                  style="
+                    width: 20px;
+                    height: 20px;
+                    object-fit: contain;
+                    margin-right: 10px;
+                  "
+                />
+                <h3>About home</h3>
+              </div>
+              <h2>Today Sells Properties</h2>
+              <p>
+                SeaWave Web is a wireframe kit that has more than 15 popular
+                categories and more than 200 screens.
+              </p>
+              <ul class="property-list">
+                <li>
+                  <span class="bullet"></span> Live Music concert at Newyork
+                </li>
+                <li>
+                  <span class="bullet"></span> Our best boat Tour is just for
+                  you
+                </li>
+                <li>
+                  <span class="bullet"></span> Live Music concert at Newyork
+                </li>
+                <li>
+                  <span class="bullet"></span> Our best boat Tour is just for
+                  you
+                </li>
+                <li>
+                  <span class="bullet"></span> Live Music concert at Newyork
+                </li>
+              </ul>
+              <div class="elpa">
+                <div class="houses">
+                  <div class="house active">HOUSE 1</div>
+                  <div class="house">HOUSE 2</div>
+                  <div class="house">HOUSE 3</div>
+                </div>
+                <div class="pagination">
+                  <span class="page active">1</span>
+                  <span class="page">2</span>
+                  <span class="page">3</span>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-section">
+              <div class="main-image"></div>
+              <div class="side-images">
+                <div class="side-image"></div>
+                <div class="side-image"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-5">
+        <div class="service-section">
+          <div class="service-header">
+            <h2>Services provide for you</h2>
+            <p>
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration.
+            </p>
+          </div>
+          <div class="service-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assets/images/bedIcon.jpg"
+                  alt="Bedroom Icon"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </div>
+              <h3>Bed Rooms</h3>
+              <p>
+                Desktop publishing software like aldus page maker including.
+              </p>
+              <a href="#" class="service-link">Learn more →</a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assets/images/swing.jpg"
+                  alt="Swimming Pool Icon"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </div>
+              <h3>Swimming pool</h3>
+              <p>React creative agency amet, consectetur adipiscing elit.</p>
+              <a href="#" class="service-link">Learn more →</a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assets/images/ke.png"
+                  alt="Copywriting Icon"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </div>
+              <h3>Copywriting content</h3>
+              <p>The standard chunk of used since the 1500's is reproduced.</p>
+              <a href="#" class="service-link">Learn more →</a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assets/images/hou.jpg"
+                  alt="Smart Home Icon"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </div>
+              <h3>Smart Home</h3>
+              <p>The standard chunk of used since the 1500's is reproduced.</p>
+              <a href="#" class="service-link">Learn more →</a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assets/images/Union.jpg"
+                  alt="Library Icon"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </div>
+              <h3>Library area</h3>
+              <p>
+                Desktop publishing software like aldus page maker including.
+              </p>
+              <a href="#" class="service-link">Learn more →</a>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <img
+                  src="./assets/images/pep.jpg"
+                  alt="Responsive Icon"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </div>
+              <h3>Responsive Duty</h3>
+              <p>React creative agency amet, consectetur adipiscing elit.</p>
+              <a href="#" class="service-link">Learn more →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-6">
+        <div class="property-section">
+          <div class="property-header">
+            <h2>Featured Property</h2>
+            <p>
+              Find your suitable house here and stay safe and relax with
+              pleasure
+            </p>
+            <div class="property-tabs">
+              <button class="tab-button active">Apartment</button>
+              <button class="tab-button">Villa</button>
+              <button class="tab-button">Land</button>
+            </div>
+          </div>
+          <div class="property-grid">
+            <div class="property-card">
+              <div class="property-image"></div>
+              <div class="property-info">
+                <h3>The Stokes Apartment</h3>
+                <p>Cleveland, United States</p>
+                <p class="property-price">$2,32,120</p>
+                <button class="property-button">→</button>
+              </div>
+            </div>
+            <div class="property-card">
+              <div class="property-image"></div>
+              <div class="property-info">
+                <h3>The Stokes Apartment</h3>
+                <p>Cleveland, United States</p>
+                <p class="property-price">$2,32,120</p>
+                <button class="property-button">→</button>
+              </div>
+            </div>
+            <div class="property-card">
+              <div class="property-image"></div>
+              <div class="property-info">
+                <h3>The Stokes Apartment</h3>
+                <p>Cleveland, United States</p>
+                <p class="property-price">$2,32,120</p>
+                <button class="property-button">→</button>
+              </div>
+            </div>
+          </div>
+          <div class="property-footer">
+            <button class="explore-button">Explore Property</button>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-7">
+        <div class="highlight-section">
+          <div class="highlight-background"></div>
+          <div class="highlight-content">
+            <div class="property-card-highlight">
+              <div class="property-image-highlight">
+                <img src="./assets/images/Rectangle_4311.jpg" alt="anh" />
+              </div>
+              <div class="property-info-highlight">
+                <p class="property-price-highlight">$4,000</p>
+                <p class="property-address-highlight">242 Metric Way</p>
+                <div class="property-details-highlight">
+                  <span class="property-detail">
+                    <img src="./assets/images/bedIcon.jpg" alt="Beds" /> 2
+                  </span>
+                  <span class="property-detail">
+                    <img src="./assets/images/swing.jpg" alt="Baths" /> 2
+                  </span>
+                  <span class="property-detail">
+                    <img src="./assets/images/ke.png" alt="Size" /> 500sqf
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="unit-label">
+              <p>UNIT NO.</p>
+              <p class="unit-number">9A</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-8">
+        <div class="testimonial-section">
+          <div class="testimonial-heading">
+            <h2>What our customers are saying</h2>
+            <p>
+              We make sure you have a fine distance with the sickness. We make
+              you never lose hope.
+            </p>
+          </div>
+          <div class="testimonial-content">
+            <div class="testimonial-slider">
+              <button class="slider-button prev-button">
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  transform="rotate(180)"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M5.20248 7.42517L1.50325 7.75232C0.673083 7.75232 0 7.07268 0 6.23442C0 5.39616 0.673083 4.71652 1.50325 4.71652L5.20248 5.04367C5.85375 5.04367 6.38174 5.57681 6.38174 6.23442C6.38174 6.89313 5.85375 7.42517 5.20248 7.42517Z"
+                    fill="#FDFDFD"
+                  />
+                  <path
+                    d="M17.6247 7.36503C17.5668 7.42341 17.3508 7.67015 17.1479 7.87503C15.9643 9.15831 12.8738 11.2567 11.2571 11.8989C11.0116 12.0013 10.3909 12.2194 10.0582 12.2349C9.74076 12.2349 9.43749 12.1611 9.1484 12.0157C8.78731 11.8119 8.49932 11.4902 8.34005 11.1113C8.23859 10.8491 8.07932 10.0616 8.07932 10.0472C7.92114 9.18695 7.83496 7.78801 7.83496 6.24147C7.83496 4.76984 7.92114 3.42818 8.05096 2.55357C8.06514 2.53815 8.22441 1.5611 8.39786 1.22623C8.71531 0.613788 9.33603 0.234863 10.0004 0.234863H10.0582C10.4913 0.249183 11.4011 0.62921 11.4011 0.642427C12.9316 1.28462 15.949 3.28168 17.1621 4.60901C17.1621 4.60901 17.5047 4.95049 17.653 5.16308C17.8843 5.4693 17.9999 5.84823 17.9999 6.22715C17.9999 6.65014 17.8701 7.04338 17.6247 7.36503Z"
+                    fill="#FDFDFD"
+                  />
+                </svg>
+              </button>
+              <div class="testimonial-card">
+                <div>
+                  <div class="testimonial-image"></div>
+                  <div class="testimonial-image2"></div>
+                </div>
+                <svg
+                  width="40"
+                  height="28"
+                  viewBox="0 0 40 28"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="position: absolute; top: 30px"
+                >
+                  <g opacity="0.5">
+                    <path
+                      d="M23.8318 23.8599C25.3894 26.1099 27.8505 27.2349 31.2149 27.2349C33.8318 27.2349 35.9501 26.5355 37.5701 25.1369C39.19 23.6774 40 21.7619 40 19.3903C40 16.897 39.2523 14.9815 37.757 13.6436C36.2617 12.245 34.2679 11.5457 31.7757 11.5457C28.8473 11.5457 26.5732 12.4882 24.9533 14.3734C24.8287 13.9477 24.7664 13.2788 24.7664 12.3666C24.7664 11.2112 24.9221 10.2078 25.2336 9.35648C25.7321 7.83621 26.6044 6.40716 27.8505 5.06932C29.1589 3.67067 30.623 2.60648 32.243 1.87676L31.4019 0.234863C28.162 1.69432 25.7009 3.76189 24.0187 6.43756C22.3364 9.11324 21.4953 12.0322 21.4953 15.1943C21.4953 17.0186 21.7134 18.6909 22.1495 20.2112C22.5857 21.7315 23.1464 22.9477 23.8318 23.8599Z"
+                      fill="#FF5A3C"
+                    />
+                    <path
+                      d="M2.33645 23.8599C3.89408 26.1099 6.35514 27.2349 9.71963 27.2349C12.3364 27.2349 14.4548 26.5355 16.0748 25.1369C17.6947 23.6774 18.5047 21.7619 18.5047 19.3903C18.5047 16.897 17.757 14.9815 16.2617 13.6436C14.7664 12.245 12.7726 11.5457 10.2804 11.5457C7.35202 11.5457 5.07788 12.4882 3.45794 14.3734C3.33333 13.9477 3.27103 13.2788 3.27103 12.3666C3.27103 11.2112 3.42679 10.2078 3.73832 9.35648C4.23676 7.83621 5.10903 6.40716 6.35514 5.06932C7.66355 3.67067 9.12772 2.60648 10.7477 1.87676L9.90654 0.234863C6.66667 1.69432 4.20561 3.76189 2.52336 6.43756C0.841121 9.11324 0 12.0322 0 15.1943C0 17.0186 0.218069 18.6909 0.654206 20.2112C1.09034 21.7315 1.65109 22.9477 2.33645 23.8599Z"
+                      fill="#FF5A3C"
+                    />
+                  </g>
+                </svg>
+
+                <div class="testimonial-text">
+                  <p class="testimonial-quote">
+                    “We make sure you have a fine distance with the sickness. We
+                    make you never lose hope. We make sure you have with the
+                    sickness.”
+                  </p>
+                  <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                  <p class="testimonial-author">Yunus Seyhan</p>
+                  <p class="testimonial-position">Postgraduate Student</p>
+                </div>
+              </div>
+              <button class="slider-button next-button">
+                <svg
+                  width="18"
+                  height="13"
+                  viewBox="0 0 18 13"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    opacity="0.4"
+                    d="M5.20248 7.42517L1.50325 7.75232C0.673083 7.75232 0 7.07268 0 6.23442C0 5.39616 0.673083 4.71652 1.50325 4.71652L5.20248 5.04367C5.85375 5.04367 6.38174 5.57681 6.38174 6.23442C6.38174 6.89313 5.85375 7.42517 5.20248 7.42517Z"
+                    fill="#FDFDFD"
+                  />
+                  <path
+                    d="M17.6247 7.36503C17.5668 7.42341 17.3508 7.67015 17.1479 7.87503C15.9643 9.15831 12.8738 11.2567 11.2571 11.8989C11.0116 12.0013 10.3909 12.2194 10.0582 12.2349C9.74076 12.2349 9.43749 12.1611 9.1484 12.0157C8.78731 11.8119 8.49932 11.4902 8.34005 11.1113C8.23859 10.8491 8.07932 10.0616 8.07932 10.0472C7.92114 9.18695 7.83496 7.78801 7.83496 6.24147C7.83496 4.76984 7.92114 3.42818 8.05096 2.55357C8.06514 2.53815 8.22441 1.5611 8.39786 1.22623C8.71531 0.613788 9.33603 0.234863 10.0004 0.234863H10.0582C10.4913 0.249183 11.4011 0.62921 11.4011 0.642427C12.9316 1.28462 15.949 3.28168 17.1621 4.60901C17.1621 4.60901 17.5047 4.95049 17.653 5.16308C17.8843 5.4693 17.9999 5.84823 17.9999 6.22715C17.9999 6.65014 17.8701 7.04338 17.6247 7.36503Z"
+                    fill="#FDFDFD"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-9">
+        <div class="project-component">
+          <h1>We build more projects successful</h1>
+          <div class="projects">
+            <div class="project">
+              <h2>San Francisco, California</h2>
+              <button>See more</button>
+            </div>
+            <div class="project">
+              <h2>Washington DC</h2>
+              <button>See more</button>
+            </div>
+            <div class="project">
+              <h2>Chicago</h2>
+              <button>See more</button>
+            </div>
+          </div>
+          <form class="subscribe">
+            <label for="default-Subscribe" class="Subscribe-label"
+              >Subscribe</label
+            >
+            <div class="Subscribe-container">
+              <div class="Subscribe-icon">
+                <svg
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  style="position: relative; top: 3px; left: 0"
+                >
+                  <path
+                    d="M15.9087 12.3027L23.9997 17.4177V6.97168L15.9087 12.3027Z"
+                    fill="#8C8C8C"
+                  />
+                  <path
+                    d="M0 6.97168V17.4177L8.091 12.3027L0 6.97168Z"
+                    fill="#8C8C8C"
+                  />
+                  <path
+                    d="M22.4999 3.92969H1.49992C0.751422 3.92969 0.157422 4.48769 0.0449219 5.20619L11.9999 13.0827L23.9549 5.20619C23.8424 4.48769 23.2484 3.92969 22.4999 3.92969Z"
+                    fill="#8C8C8C"
+                  />
+                  <path
+                    d="M14.5349 13.2088L12.4124 14.6068C12.2864 14.6893 12.1439 14.7298 11.9999 14.7298C11.8559 14.7298 11.7134 14.6893 11.5874 14.6068L9.46485 13.2073L0.0478516 19.1638C0.163352 19.8763 0.754352 20.4298 1.49985 20.4298H22.4999C23.2454 20.4298 23.8364 19.8763 23.9519 19.1638L14.5349 13.2088Z"
+                    fill="#8C8C8C"
+                  />
+                </svg>
+              </div>
+              <input
+                type="email"
+                id="default-Subscribe"
+                class="Subscribe-input"
+                placeholder="Enter your email here"
+                required
+              />
+              <button type="submit" class="Subscribe-button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="screen screen-10">
+        <div id="blog-component" class="main-component">
+          <div class="component-container">
+            <header class="blog-header">
+              <h2 class="component-title">From our blog</h2>
+              <p class="component-description">
+                Find your suitable house here and stay safe and relax with
+                pleasure
+              </p>
+            </header>
+            <div class="post-list">
+              <article class="post-item">
+                <div class="post-image"></div>
+                <div class="post-content">
+                  <h3 class="post-title">How to rent a home very easily?</h3>
+                  <div style="display: flex; gap: 10px">
+                    <svg
+                      width="12"
+                      height="16"
+                      viewBox="0 0 12 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 1.38525H2C1.44772 1.38525 1 1.83297 1 2.38525V15.3853L6 9.65798L11 15.3853V2.38525C11 1.83297 10.5523 1.38525 10 1.38525Z"
+                        stroke="#8C8C8C"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <p class="post-category">Rentals</p>
+                  </div>
+                  <p class="post-excerpt">
+                    How to rent a home very easily in this pandemic situation.
+                    You can rent house through using our platform...
+                  </p>
+                  <footer class="post-meta">
+                    <div>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.55 3.29434V2.3398M5.55 1.38525V2.3398M5.55 2.3398H10.45M10.45 2.3398H2C1.44772 2.3398 1 2.78751 1 3.3398V7.68525M10.45 2.3398H14C14.5523 2.3398 15 2.78751 15 3.3398V7.68525M10.45 2.3398V1.38525M10.45 2.3398V3.29434M1 7.68525V14.3853C1 14.9375 1.44772 15.3853 2 15.3853H14C14.5523 15.3853 15 14.9375 15 14.3853V7.68525M1 7.68525H15"
+                          stroke="#8C8C8C"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+
+                      <span class="post-date">3 years ago</span>
+                    </div>
+                    <div class="post-author">
+                      <svg
+                        width="11"
+                        height="16"
+                        viewBox="0 0 11 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.5 9.38525C2.63037 9.38525 0.464848 12.198 1.11658 14.9853H9.88342C10.5352 12.198 8.36963 9.38525 5.5 9.38525Z"
+                          stroke="#8C8C8C"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="5.5"
+                          cy="3.88525"
+                          r="2.5"
+                          stroke="#8C8C8C"
+                        />
+                      </svg>
+
+                      By
+                      <span class="post-author" style="color: #FF5A3C;">Mike Hasan</span>
+                    </div>
+                </div>
+              </article>
+              <article class="post-item">
+                <div class="post-image"></div>
+                <div class="post-content">
+                  <h3 class="post-title">How to rent a home very easily?</h3>
+                  <div style="display: flex; gap: 10px">
+                    <svg
+                      width="12"
+                      height="16"
+                      viewBox="0 0 12 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 1.38525H2C1.44772 1.38525 1 1.83297 1 2.38525V15.3853L6 9.65798L11 15.3853V2.38525C11 1.83297 10.5523 1.38525 10 1.38525Z"
+                        stroke="#8C8C8C"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <p class="post-category">Rentals</p>
+                  </div>
+                  <p class="post-excerpt">
+                    How to rent a home very easily in this pandemic situation.
+                    You can rent house through using our platform...
+                  </p>
+                  <footer class="post-meta">
+                    <div>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.55 3.29434V2.3398M5.55 1.38525V2.3398M5.55 2.3398H10.45M10.45 2.3398H2C1.44772 2.3398 1 2.78751 1 3.3398V7.68525M10.45 2.3398H14C14.5523 2.3398 15 2.78751 15 3.3398V7.68525M10.45 2.3398V1.38525M10.45 2.3398V3.29434M1 7.68525V14.3853C1 14.9375 1.44772 15.3853 2 15.3853H14C14.5523 15.3853 15 14.9375 15 14.3853V7.68525M1 7.68525H15"
+                          stroke="#8C8C8C"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+
+                      <span class="post-date">3 years ago</span>
+                    </div>
+                    <div class="post-author">
+                      <svg
+                        width="11"
+                        height="16"
+                        viewBox="0 0 11 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.5 9.38525C2.63037 9.38525 0.464848 12.198 1.11658 14.9853H9.88342C10.5352 12.198 8.36963 9.38525 5.5 9.38525Z"
+                          stroke="#8C8C8C"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="5.5"
+                          cy="3.88525"
+                          r="2.5"
+                          stroke="#8C8C8C"
+                        />
+                      </svg>
+
+                      By
+                      <span class="post-author" style="color: #FF5A3C;">Mike Hasan</span>
+                    </div>
+                </div>
+              </article>
+              <article class="post-item">
+                <div class="post-image"></div>
+                <div class="post-content">
+                  <h3 class="post-title">How to rent a home very easily?</h3>
+                  <div style="display: flex; gap: 10px">
+                    <svg
+                      width="12"
+                      height="16"
+                      viewBox="0 0 12 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10 1.38525H2C1.44772 1.38525 1 1.83297 1 2.38525V15.3853L6 9.65798L11 15.3853V2.38525C11 1.83297 10.5523 1.38525 10 1.38525Z"
+                        stroke="#8C8C8C"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+
+                    <p class="post-category">Rentals</p>
+                  </div>
+                  <p class="post-excerpt">
+                    How to rent a home very easily in this pandemic situation.
+                    You can rent house through using our platform...
+                  </p>
+                  <footer class="post-meta">
+                    <div>
+                      <svg
+                        width="16"
+                        height="16"
+                        viewBox="0 0 16 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.55 3.29434V2.3398M5.55 1.38525V2.3398M5.55 2.3398H10.45M10.45 2.3398H2C1.44772 2.3398 1 2.78751 1 3.3398V7.68525M10.45 2.3398H14C14.5523 2.3398 15 2.78751 15 3.3398V7.68525M10.45 2.3398V1.38525M10.45 2.3398V3.29434M1 7.68525V14.3853C1 14.9375 1.44772 15.3853 2 15.3853H14C14.5523 15.3853 15 14.9375 15 14.3853V7.68525M1 7.68525H15"
+                          stroke="#8C8C8C"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+
+                      <span class="post-date">3 years ago</span>
+                    </div>
+                    <div class="post-author">
+                      <svg
+                        width="11"
+                        height="16"
+                        viewBox="0 0 11 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.5 9.38525C2.63037 9.38525 0.464848 12.198 1.11658 14.9853H9.88342C10.5352 12.198 8.36963 9.38525 5.5 9.38525Z"
+                          stroke="#8C8C8C"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <circle
+                          cx="5.5"
+                          cy="3.88525"
+                          r="2.5"
+                          stroke="#8C8C8C"
+                        />
+                      </svg>
+
+                      By
+                      <span class="post-author" style="color: #FF5A3C;">Mike Hasan</span>
+                    </div>
+                  </footer>
+                </div>
+              </article>
+            </div>
+            <div class="button-container">
+              <button class="read-all-button">Read All</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="screen screen-11">
+        <div class="contact-wrapper">
+          <div style="display: grid; width: 100%;">
+              <h2 class="contactW">Contact with us</h2>
+              <h1 class="contactW2">Looking For To Buy A Property?</h1>
+          </div>
+          <div class="cnter">
+              <div class="contact-component">
+                  <div class="left-content">
+                      <p>Browse our property listing and find your best and suitable home or house for sale, rent, and buying. It's so easy and fast.</p>
+                      <ul>
+                          <li>Archit ecto beatae vitae dicta sunt</li>
+                          <li>Largest global RealEstate market</li>
+                          <li>Nor again is there anyone</li>
+                      </ul>
+                      <img src="./assets/images/lokingFor.png" alt="image" id="a">
+                      <img src="./assets/images/lokingFor2.png" alt="image" id="b"> 
+                      <img src="./assets/images/lokingFor3.png" alt="image" id="c">
+                      <img src="./assets/images/lokingFor4.png" alt="image" id="d">
+                  </div>
+                  <div class="form-container">
+                      <h3>Contact Us</h3>
+                      <form>
+                          <h5>Name</h5>
+                          <input type="text" name="name" placeholder="Enter your name" required>
+                          <h5>Email</h5>
+                          <input type="email" name="email" placeholder="Enter your email" required>
+                          <h5>Message</h5>
+                          <textarea name="message" rows="4" placeholder="Enter your message" required></textarea>
+                          <button type="submit">Send</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <section class="screen screen-12">
+        <footer id="custom-footer" class="footer-main">
+          <div class="footer-wrapper">
+            <div class="footer-block footer-info">
+              <div class="footer-brand">Reanty.</div>
+              <p>With over 1 million homes for sale available on the website.</p>
+              <div class="footer-socials">
+                <a href="#" class="social-link">in</a>
+                <a href="#" class="social-link">f</a>
+                <a href="#" class="social-link">t</a>
+              </div>
+            </div>
+            <div class="footer-block footer-company">
+              <h3>Company</h3>
+              <ul class="footer-menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">How we work?</a></li>
+              </ul>
+            </div>
+            <div class="footer-block footer-contact">
+              <h3>Contact</h3>
+              <ul class="footer-menu">
+                <li><a href="#">Help/FAQ</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Property owners</a></li>
+                <li><a href="#">Partners</a></li>
+              </ul>
+            </div>
+            <div class="footer-block footer-resources">
+              <h3>More</h3>
+              <ul class="footer-menu">
+                <li><a href="#">Land fees</a></li>
+                <li><a href="#">Property</a></li>
+                <li><a href="#">Law tips</a></li>
+                <li><a href="#">Nadges</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+            <div class="footer-block footer-office">
+              <h3>Head Office</h3>
+              <p>Xilliams Corner Wine &copy; 2017. 1112 A Market St #Ste B22, Charlottesville, CA 45565</p>
+              <div class="footer-subscribe">
+                <h3>Newsletter</h3>
+                <input type="email" placeholder="Enter your email address" class="subscribe-input">
+                <div class="subscribe-icon"></div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="footer-credits">
+            <p>email@gmail.com</p>
+            <p>(123) 456-7890</p>
+            <p>&copy;2021 Aeyman Megha All rights reserved.</p>
+          </div>
+        </footer>
+      </section>
+    </div>
+    <script src="./assets/scripts/scrolling.js"></script>
+  </body>
+</html>
